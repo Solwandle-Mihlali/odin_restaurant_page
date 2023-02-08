@@ -11,32 +11,29 @@
 </head>
 <body>
   <main>
-    <nav>
-        <ul>
-            <li>
-                <a href="" class="anchors">SHOP</a>
-                <a href="">ORDER</a>
-                <a href="">CHECKOUT</a>
-            </li>
-        </ul>
+    <nav> 
+            <div class="logo">
+            
+            </div>  
     </nav>
     <ion-icon name="arrow-back-circle-outline" id="left"></ion-icon>
     <form action="#" class="productCardCont">
          <div class="like">
             <ion-icon name="heart-outline" id="likeIcon"></ion-icon>
          </div>
-         <h1 id="title">MEATY BURGER</h1>
+         <h1 id="title">Meaty Burger</h1>
         <div class="img" id="img"></div>
-        <div class="quantity">
-            <ion-icon name="remove-outline"></ion-icon>
-            <div class="counter" >
-                <h5 id="count">1</h5>
-            </div>
-            <ion-icon name="add-outline"></ion-icon>
-        </div>
-        <button type="button" id="button">ADD TO CART</button>
+        <button type="button" id="addToCartButton">ADD TO CART</button>
         <div class="price" id="price">R95</div>
     </form>
+
+    <div class="cart" id="cart">
+        <h1 id="cartTitle">CART</h1>
+         <div id="cartDisplay">
+
+         </div>
+        <button type="button" id="checkoutBtn">Checkout</button>
+    </div>
     
     <ion-icon name="arrow-forward-circle-outline" id="right"></ion-icon>
   </main>
